@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site - Seu Nome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        #message {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bem-vindo ao site do [ joao vitor]</h1>
+    <p id="message">Clique no botão abaixo para receber uma saudação personalizada!</p>
+    <button onclick="exibirSaudacao()">Clique aqui</button>
+
+    <script>
+        function exibirSaudacao() {
+            const nome = "[ eu sou o joao vitor]";  
+            const mensagem = "Olá, " + nome + "! Bem-vindo ao meu site!";
+            document.getElementById('message').innerHTML = mensagem;
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+    
